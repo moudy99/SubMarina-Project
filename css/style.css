@@ -201,7 +201,8 @@
 /*** About ***/
 .about {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url(../img/LandingPage/Entertainmant.jpg) left center no-repeat;
+    url(../img/LandingPage/snowplough-lady-and-instructor_Dry\ Ski\ Slopes_CREDIT\ Snow\ Dome.jpg)
+      left center no-repeat;
   background-size: cover;
 }
 
@@ -498,7 +499,7 @@
 .testimonial-item img {
   width: 100px !important;
   height: 100px !important;
-  border-radius: 100px;
+  /* border-radius: 100px; */
 }
 
 .testimonial-carousel .owl-nav {
