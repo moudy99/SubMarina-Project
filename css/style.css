@@ -177,6 +177,17 @@
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
     url(../img/carousel-1.jpg) center center no-repeat;
   background-size: cover;
+  height: 50vh;
+}
+.safari-zoo-page-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../img/pageHeaders/safari-zoo.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.sector-feature:hover {
+  transition: box-shadow 0.2s ease-in-out;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
 }
 
 .page-header .breadcrumb-item + .breadcrumb-item::before {
