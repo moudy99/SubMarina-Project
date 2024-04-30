@@ -189,7 +189,18 @@
     url(../img/Sectores/Submarines/submarins.jpg) center center no-repeat;
   background-size: cover;
 }
-
+.Ferris-wheels-page-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../img/Sectores/Freeis-wheels/Ferris-wheels-2.jpg) center center
+      no-repeat;
+  background-size: cover;
+}
+.playground-page-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../img/Sectores/Playground/playground-header-cover-1.jpg) center center
+      no-repeat;
+  background-size: cover;
+}
 .sector-feature:hover {
   transition: box-shadow 0.2s ease-in-out;
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
@@ -603,4 +614,7 @@
 
 .copyright a:hover {
   color: var(--primary) !important;
+}
+body {
+  background-color: #f6fbf6;
 }
