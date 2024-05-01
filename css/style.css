@@ -231,7 +231,9 @@
   color: var(--light);
 }
 
-
+.text-center.mx-auto.wow.fadeInUp >p , .text-center.mx-auto.wow.fadeInUp >h1{
+margin-bottom: 90px !important;
+}
 
 .page-header .breadcrumb-item,
 .page-header .breadcrumb-item a {
