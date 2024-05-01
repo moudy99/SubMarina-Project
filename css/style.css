@@ -201,6 +201,21 @@
       no-repeat;
   background-size: cover;
 }
+.skidome-page-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../img/Sectores/skiDome/Ski-dome-cove.png) center center no-repeat;
+  background-size: cover;
+}
+.Teleferik-page-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../img/Sectores/Teleferic/Cover.jpg) center center no-repeat;
+  background-size: cover;
+}
+.AquaPark-page-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../img/Sectores/Aqua-park/cover-aque\ park.jpg) center center no-repeat;
+  background-size: cover;
+}
 .sector-feature:hover {
   transition: box-shadow 0.2s ease-in-out;
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
