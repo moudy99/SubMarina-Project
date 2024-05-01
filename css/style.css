@@ -197,9 +197,15 @@
 }
 .playground-page-header {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url(../img/Sectores/Playground/playground-header-cover-1.jpg) center center
+    url(../img/Sectores/Playground/image.jpg) center center
       no-repeat;
   background-size: cover;
+}
+.playground-text {
+  text-shadow: 2px 2px 5px rgb(0 0 0 / 95%) !important;
+}
+.playground-text a:hover{
+  color: #004eff;
 }
 .skidome-page-header {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
@@ -224,6 +230,8 @@
 .page-header .breadcrumb-item + .breadcrumb-item::before {
   color: var(--light);
 }
+
+
 
 .page-header .breadcrumb-item,
 .page-header .breadcrumb-item a {
