@@ -240,6 +240,13 @@ margin-bottom: 90px !important;
   font-size: 18px;
   color: var(--light);
 }
+.landing-caption {
+  text-align: right !important;
+  font-weight: 500 !important;
+}
+#locationLink{
+  cursor: pointer;
+}
 
 /*** Features ***/
 .feature-row {

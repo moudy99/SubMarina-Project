@@ -253,3 +253,21 @@ function preloadImagesForCurrentPage() {
 }
 
 window.onload = preloadImagesForCurrentPage;
+
+function toggleArticle() {
+  const shortArticle = document.querySelector(".article-short");
+  const fullArticle = document.querySelector(".article-full");
+
+  shortArticle.classList.toggle("d-none");
+  fullArticle.classList.toggle("d-none");
+}
+
+var locationLink = document.querySelectorAll("#locationLink");
+
+locationLink.forEach((link) => {
+  link.addEventListener("click", function () {
+    window.open(
+      "https://maps.google.com/maps/place//data=!4m2!3m1!1s0x15c21b761d70f68f:0xfc500d90562b4a60?entry=s&sa=X&ved=1t:8290&hl=en-sa&ictx=111"
+    );
+  });
+});
